@@ -12,6 +12,7 @@ for i in test_list:
     print(i) # test_list에 있는 모든 요소가 첫 번째부터 마지막까지 변수 i에 차례대로 대입된다.
 
 # 예제 2. 다양한 for문의 사용
+# 대입되는 변수의 형태는 리스트(or 튜플, 문자열)의 형태와 같아야한다.
 a = [(1,2), (3,4), (5,6)]
 for (first, last) in a: # 대입하는 변수를 튜플로 받음. 형태가 다르면 오류 발생
     print(first + last)
